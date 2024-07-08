@@ -1,0 +1,61 @@
+.open-sans-mary {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 20px;
+}
+
+.nav-title {
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.r-color {
+    color: orangered;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+.btn-primary {
+    color: white;
+    background-color: orangered;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: open sans;
+    border-radius: 5px;
+    border: none;
+
+}
