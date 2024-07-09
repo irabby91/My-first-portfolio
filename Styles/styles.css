@@ -22,6 +22,8 @@ nav {
     line-height: 61px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 226px;
+    margin-top: 15px;
 }
 
 .r-color {
@@ -57,5 +59,86 @@ nav ul {
     font-family: open sans;
     border-radius: 5px;
     border: none;
+    line-height: 27px;
+    letter-spacing: 0%;
 
+}
+.header{
+    background-image: url('../images/developer.png') url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.banner-greet {
+    /* Hi, I am */
+    position: absolute;
+    width: 177px;
+    height: 61px;
+    left: 230px;
+    right: 178px;
+    top: 297px;
+    bottom: -96px;
+}
+
+.banner-name {
+    /* Ariful Isllam */
+    position: absolute;
+    width: 498px;
+    height: 116px;
+    left: 230px;
+    right: -143px;
+    top: 363px;
+    bottom: -217px;
+}
+
+.banner-para {
+    position: absolute;
+    width: 585px;
+    height: 60px;
+    left: 230px;
+    right: -230px;
+    top: 499px;
+    bottom: -297px;
+}
+
+.banner-img {
+    position: absolute;
+    width: 584px;
+    height: 676px;
+    left: 978px;
+    right: 38px;
+    top: 161px;
+    bottom: 3419px;
+}
+
+.bt-cv {
+    position: absolute;
+    width: 200px;
+    height: 64px;
+    left: 230px;
+    right: -230px;
+    top: 589px;
+    bottom: -589px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    border: none;
+    color: white;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-contact {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 460px;
+    right: -35px;
+    top: 589px;
+    bottom: -297px;
+    color: orangered;
+    font-family: Open Sans;
+    border: orangered;
+    font-size: 20px;
+    font-weight: 700;
 }
